@@ -1,0 +1,70 @@
+.NavbarItems {
+    background: linear-gradient(10deg, rgb(66, 26, 26) 15%, rgb(255, 0, 0) 100%);
+   
+    
+    height: 45px;
+    width: 100%;
+    
+}
+.Navbar-logo {
+    margin-top: -5px;
+    width: 40px;
+    height: 35px;
+    justify-self: start;
+    margin-left: 1px;
+}
+.fa-react {
+    margin-left: 0.5rem;
+    font-size: 1.9rem;
+}
+.nav-menu {
+    color: rgb(92, 163, 104);
+    text-align: center;
+    width: 70vw;
+    justify-content: flex-end;
+}
+.menu-icon{
+    display: flex;
+    margin-top: -40px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: rgb(94, 91, 91);
+}
+.MenuItems{
+    margin-left: 70px;
+    margin-top: -31px;
+    margin-right: 1%;
+    justify-content: flex-end;
+    
+    display:flex;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 1%;
+    
+    
+    font-size: 1.2rem;
+    
+    
+    list-style: none;
+    
+}
+.nav-links{
+    color: rgb(12, 4, 4);
+}
+/*
+.nav-links-mobile{
+    display: flex;
+    position: relative;
+    color:red;
+    margin-right: 10px;
+    
+}*/
+
+
+
+.nav-links:hover{
+    background: linear-gradient(10deg, rgb(254, 94, 94) 15%, rgb(85, 252, 63) 100%);
+    color: white;
+    border-radius: 9px;
+    transition: all 1.2s ease-out;
+}
